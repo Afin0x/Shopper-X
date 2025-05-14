@@ -1,0 +1,38 @@
+.product-list-dropdown {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .dropdown-product-card {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    border-radius: 8px;
+    transition: background 0.2s;
+  }
+  
+  .dropdown-product-card:hover {
+    background-color: #f3f3f3;
+  }
+  
+  .dropdown-product-card img {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+  
+  .dropdown-product-card .info h4 {
+    font-size: 16px;
+    margin-bottom: 4px;
+  }
+  
+  .dropdown-product-card .info p {
+    font-size: 14px;
+    color: #777;
+  }
+  
